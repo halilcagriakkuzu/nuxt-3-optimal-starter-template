@@ -12,6 +12,8 @@ module.exports = {
     parser: '@typescript-eslint/parser',
   },
 
+  ignorePatterns: ['**/*.css', '**/*.scss'],
+
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:nuxt/recommended',
