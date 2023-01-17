@@ -34,10 +34,5 @@
     "**/*.{js,ts,vue,html,css}": [
       "pnpm lintfix"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
   }
 }
