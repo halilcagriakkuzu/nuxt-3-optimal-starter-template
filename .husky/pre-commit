@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-if [ -t 1 ]; then exec 1> /dev/tty; fi
-if [ -t 2 ]; then exec 2> /dev/tty; fi
+if [ -t 2 ]; then
+  exec >/dev/tty 2>&1
+fi
 FORCE_COLOR=1 pnpm lint-staged
 git add -A .
