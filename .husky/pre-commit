@@ -4,4 +4,3 @@
 if [ -t 1 ]; then exec 1> /dev/console; fi
 if [ -t 2 ]; then exec 2> /dev/console; fi
 FORCE_COLOR=1 pnpm lint-staged
-git add -A .
