@@ -8,13 +8,14 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
+    "test": "vitest",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-    "@typescript-eslint/eslint-plugin": "^5.6.0",
-    "@typescript-eslint/parser": "^5.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
     "@vue/eslint-config-standard": "^8.0.1",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
@@ -29,6 +30,7 @@
     "vitest": "^0.27.2"
   },
   "dependencies": {
+    "@nuxt/test-utils": "^3.0.0",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
