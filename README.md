@@ -1,6 +1,23 @@
 # Nuxt 3 Optimal Starter Template
+Nuxt 3 starter template with most used tools
+
+- Typescript
+- ESLint
+  - @typescript-eslint
+- Prettier
+  - @trivago/prettier-plugin-sort-imports
+  - prettier-plugin-organize-attributes
+  - prettier-plugin-tailwindcss
+- Husky
+  - Configured pre-commit to lint-staged 
+  - Configured commit-msg to commitlint
+- Vitest
+  - @nuxt/test-utils
+- Tailwind
 
 ## Setup
+
+_Optional: use pnpm_ `https://pnpm.io/installation`
 
 Make sure to install the dependencies:
 
