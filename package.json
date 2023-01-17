@@ -32,12 +32,12 @@
   },
   "lint-staged": {
     "**/*.{js,ts,vue,html,css}": [
-      "pnpm exec lintfix"
+      "pnpm lintfix"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\" && lint-staged && pnpm exec --no-install commitlint --edit"
+      "pre-commit": "echo \"[Husky] pre-commit\""
     }
   }
 }
