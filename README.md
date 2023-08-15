@@ -24,7 +24,7 @@ Make sure to install the dependencies:
 ```bash
 # pnpm
 pnpm install
-pnpm postInstall
+pnpm postinstall
 
 # to install husky hooks
 pnpm prepare

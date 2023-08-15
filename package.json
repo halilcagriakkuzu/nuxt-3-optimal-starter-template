@@ -12,31 +12,31 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
     "@vue/eslint-config-standard": "^8.0.1",
-    "eslint": "^8.32.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.0",
-    "nuxt": "^3.0.0",
-    "prettier": "^2.8.3",
-    "typescript": "^4.9.4",
-    "vitest": "^0.27.2"
+    "lint-staged": "^14.0.0",
+    "nuxt": "^3.6.5",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
   },
   "dependencies": {
-    "@nuxt/test-utils": "^3.0.0",
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "prettier-plugin-organize-attributes": "^0.0.5",
-    "prettier-plugin-tailwindcss": "^0.2.1",
-    "tailwindcss": "^3.2.4"
+    "@nuxt/test-utils": "^3.6.5",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.27",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "tailwindcss": "^3.3.3"
   },
   "lint-staged": {
     "**/*.{js,ts,vue,html,css}": [
